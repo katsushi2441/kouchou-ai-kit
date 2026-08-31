@@ -1,0 +1,11 @@
+# ポートを18300番台(実測空き)へ。付属ollamaはホスト公開しない。
+services:
+  api:
+    ports:
+      - "127.0.0.1:18364:8000"
+  public-viewer:
+    ports:
+      - "18361:3000"
+  admin:
+    ports:
+      - "18363:4000"
