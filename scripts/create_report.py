@@ -7,9 +7,10 @@
 """
 import csv, json, os, re, sys, time, urllib.request
 
-ROOT = "/home/kojima/work/kouchou-ai"
-KIT  = "/home/kojima/work/kouchou-ai-kit"
-API  = "http://127.0.0.1:18364"
+# 置き場所は環境変数で変えられる（既定は当社の検証環境）
+ROOT = os.environ.get("KOUCHOU_ROOT", "/home/kojima/work/kouchou-ai")                 # 本家を clone した場所
+KIT  = os.environ.get("KIT_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+API  = os.environ.get("KOUCHOU_API", "http://127.0.0.1:18364")                       # api コンテナの公開URL
 
 env = dict(l.split("=",1) for l in open(f"{ROOT}/.env") if "=" in l and not l.startswith("#"))
 KEY = env["ADMIN_API_KEY"].strip()
