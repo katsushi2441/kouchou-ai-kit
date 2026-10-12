@@ -1,0 +1,15 @@
+{"label": "cpu4c", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "run": 0, "wall_s": 30.81, "load_s": 10.38, "prompt_tokens": 439, "prompt_tok_s": 28.7, "eval_tokens": 29, "eval_tok_s": 5.67}
+{"label": "cpu4c", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "run": 1, "wall_s": 6.64, "load_s": 0.19, "prompt_tokens": 439, "prompt_tok_s": 391.5, "eval_tokens": 31, "eval_tok_s": 5.82}
+{"label": "cpu4c", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "run": 2, "wall_s": 8.06, "load_s": 0.19, "prompt_tokens": 446, "prompt_tok_s": 328.0, "eval_tokens": 37, "eval_tok_s": 5.69}
+{"label": "cpu4c", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "run": 3, "wall_s": 7.41, "load_s": 0.19, "prompt_tokens": 441, "prompt_tok_s": 356.6, "eval_tokens": 31, "eval_tok_s": 5.18}
+SUMMARY {"label": "cpu4c", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "first_wall_s": 30.81, "load_s": 10.38, "median_wall_s": 7.41, "median_prompt_tok_s": 356.6, "median_eval_tok_s": 5.69}
+{"label": "cpu4c", "model": "gemma4:e4b", "run": 0, "wall_s": 81.04, "load_s": 69.95, "prompt_tokens": 341, "prompt_tok_s": 50.8, "eval_tokens": 36, "eval_tok_s": 8.22}
+{"label": "cpu4c", "model": "gemma4:e4b", "run": 1, "wall_s": 11.66, "load_s": 0.41, "prompt_tokens": 338, "prompt_tok_s": 49.8, "eval_tokens": 35, "eval_tok_s": 7.84}
+{"label": "cpu4c", "model": "gemma4:e4b", "run": 2, "wall_s": 11.46, "load_s": 0.4, "prompt_tokens": 341, "prompt_tok_s": 49.2, "eval_tokens": 34, "eval_tok_s": 8.23}
+{"label": "cpu4c", "model": "gemma4:e4b", "run": 3, "wall_s": 11.46, "load_s": 0.41, "prompt_tokens": 338, "prompt_tok_s": 50.4, "eval_tokens": 35, "eval_tok_s": 8.06}
+SUMMARY {"label": "cpu4c", "model": "gemma4:e4b", "first_wall_s": 81.04, "load_s": 69.95, "median_wall_s": 11.46, "median_prompt_tok_s": 49.8, "median_eval_tok_s": 8.06}
+{"label": "cpu4c", "model": "gemma4:12b-it-qat", "run": 0, "wall_s": 68.97, "load_s": 41.34, "prompt_tokens": 345, "prompt_tok_s": 19.3, "eval_tokens": 36, "eval_tok_s": 3.68}
+{"label": "cpu4c", "model": "gemma4:12b-it-qat", "run": 1, "wall_s": 30.05, "load_s": 0.46, "prompt_tokens": 342, "prompt_tok_s": 18.9, "eval_tokens": 36, "eval_tok_s": 3.14}
+{"label": "cpu4c", "model": "gemma4:12b-it-qat", "run": 2, "wall_s": 31.65, "load_s": 0.63, "prompt_tokens": 345, "prompt_tok_s": 17.0, "eval_tokens": 38, "eval_tok_s": 3.55}
+{"label": "cpu4c", "model": "gemma4:12b-it-qat", "run": 3, "wall_s": 30.58, "load_s": 0.5, "prompt_tokens": 342, "prompt_tok_s": 17.6, "eval_tokens": 35, "eval_tok_s": 3.28}
+SUMMARY {"label": "cpu4c", "model": "gemma4:12b-it-qat", "first_wall_s": 68.97, "load_s": 41.34, "median_wall_s": 30.58, "median_prompt_tok_s": 17.6, "median_eval_tok_s": 3.28}

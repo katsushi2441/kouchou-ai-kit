@@ -1,0 +1,20 @@
+{"set": "A_ai_sample", "id": "A000", "text": "AIは未来を切り拓く画期的な技術だと感じます。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIは未来を切り拓く画期的な技術だ"], "tokens_out": 29, "sec": 35.32}
+{"set": "A_ai_sample", "id": "A001", "text": "自動運転技術におけるAIの進化は非常に期待できます。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["自動運転技術におけるAIの進化は非常に期待できる"], "tokens_out": 31, "sec": 7.47}
+{"set": "A_ai_sample", "id": "A002", "text": "教育現場でのAI利用は、個別最適化学習を実現する可能性があります。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["教育現場でのAI利用は、個別最適化学習を実現する可能性がある"], "tokens_out": 37, "sec": 8.12}
+{"set": "A_ai_sample", "id": "A003", "text": "AIのアルゴリズムは透明性を持つべきだと思います。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIのアルゴリズムは透明性を持つべきだ"], "tokens_out": 31, "sec": 6.64}
+{"set": "A_ai_sample", "id": "A004", "text": "ロボット技術と連携するAIは、未来の産業を変えるでしょう。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["ロボット技術と連携するAIは、未来の産業を変える"], "tokens_out": 35, "sec": 7.36}
+{"set": "A_ai_sample", "id": "A005", "text": "自然言語処理の進化により、AIは人間との対話がますます自然になります。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["自然言語処理の進化により、AIは人間との対話がますます自然になる"], "tokens_out": 38, "sec": 8.28}
+{"set": "A_ai_sample", "id": "A006", "text": "AIの決定プロセスは、ユーザーにとって理解しやすい形にする必要があります。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIの決定プロセスは、ユーザーにとって理解しやすい形にする必要がある"], "tokens_out": 39, "sec": 8.47}
+{"set": "A_ai_sample", "id": "A007", "text": "金融分野では、AIがリスク評価や不正検知に用いられています。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIはリスク評価や不正検知に用いられている"], "tokens_out": 32, "sec": 7.06}
+{"set": "A_ai_sample", "id": "A008", "text": "AIが人間の意思決定を補完することで、より正確な判断が可能となります。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIが人間の意思決定を補完することで、より正確な判断が可能となる"], "tokens_out": 37, "sec": 8.05}
+{"set": "A_ai_sample", "id": "A009", "text": "スマートホームにおけるAIは、生活の質を向上させます。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["スマートホームにおけるAIは、生活の質を向上させる"], "tokens_out": 32, "sec": 7.07}
+{"set": "A_ai_sample", "id": "A010", "text": "AIは犯罪予防や治安維持においても効果的です。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIは犯罪予防や治安維持においても効果的です。"], "tokens_out": 34, "sec": 7.42}
+{"set": "A_ai_sample", "id": "A011", "text": "AIが仕事を奪うという懸念と、新たな雇用創出の両面が存在します。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIが仕事を奪うという懸念", "新たな雇用創出"], "tokens_out": 38, "sec": 9.17}
+{"set": "A_ai_sample", "id": "A012", "text": "市民生活に根付いたAIサービスの普及は、利便性を向上させます。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["市民生活に根付いたAIサービスの普及は、利便性を向上させる"], "tokens_out": 39, "sec": 9.23}
+{"set": "A_ai_sample", "id": "A013", "text": "AIを利用したスマート農業が、食糧生産に革命を起こす可能性があります。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIを利用したスマート農業が、食糧生産に革命を起こす可能性がある"], "tokens_out": 39, "sec": 9.37}
+{"set": "A_ai_sample", "id": "A014", "text": "AI技術は、交通渋滞の緩和にも役立つと考えられます。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AI技術は、交通渋滞の緩和にも役立つと考えられます。"], "tokens_out": 39, "sec": 8.37}
+{"set": "A_ai_sample", "id": "A015", "text": "AIを用いた犯罪解析は、警察の捜査に大きな助けとなります。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIを用いた犯罪解析は、警察の捜査に大きな助けとなる"], "tokens_out": 37, "sec": 8.02}
+{"set": "A_ai_sample", "id": "A016", "text": "AIは、複雑な問題の解決策を提示する力を持っています。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIは、複雑な問題の解決策を提示する力を持っています。"], "tokens_out": 36, "sec": 7.74}
+{"set": "A_ai_sample", "id": "A017", "text": "AI技術の国際的な標準化が進むことを期待します。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AI技術の国際的な標準化が進むことを期待する"], "tokens_out": 30, "sec": 7.22}
+{"set": "A_ai_sample", "id": "A018", "text": "AIによる自動分析は、ビッグデータ時代において必要不可欠です。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIによる自動分析は、ビッグデータ時代において必要不可欠です。"], "tokens_out": 33, "sec": 7.1}
+{"set": "A_ai_sample", "id": "A019", "text": "AIによる予測モデルは、災害時の迅速な対応を助けるでしょう。", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "items": ["AIによる予測モデルは、災害時の迅速な対応を助ける"], "tokens_out": 34, "sec": 7.81}
