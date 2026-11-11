@@ -1,0 +1,155 @@
+Starting pipeline execution...
+  Config: bench-work/configs/bench-100-20261111-224006.json
+  Output: bench-work/outputs
+
+Executing step: extraction (analysis.extraction)
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:25<41:29, 25.15s/it]  2%|▏         | 2/100 [00:36<27:31, 16.85s/it]  3%|▎         | 3/100 [00:47<23:09, 14.33s/it]  4%|▍         | 4/100 [00:59<21:10, 13.24s/it]  5%|▌         | 5/100 [01:09<19:24, 12.26s/it]  6%|▌         | 6/100 [01:19<18:09, 11.59s/it]  7%|▋         | 7/100 [01:30<17:40, 11.40s/it]  8%|▊         | 8/100 [01:41<17:19, 11.30s/it]  9%|▉         | 9/100 [01:53<17:04, 11.26s/it] 10%|█         | 10/100 [02:03<16:29, 10.99s/it] 11%|█         | 11/100 [02:14<16:21, 11.02s/it] 12%|█▏        | 12/100 [02:25<15:58, 10.89s/it] 13%|█▎        | 13/100 [02:35<15:35, 10.75s/it] 14%|█▍        | 14/100 [02:50<16:59, 11.86s/it] 15%|█▌        | 15/100 [03:04<18:04, 12.76s/it] 16%|█▌        | 16/100 [03:17<17:56, 12.82s/it] 17%|█▋        | 17/100 [03:28<16:58, 12.27s/it] 18%|█▊        | 18/100 [03:40<16:27, 12.04s/it] 19%|█▉        | 19/100 [03:51<15:43, 11.65s/it] 20%|██        | 20/100 [04:01<15:10, 11.38s/it] 21%|██        | 21/100 [04:13<15:01, 11.41s/it] 22%|██▏       | 22/100 [04:25<14:59, 11.54s/it] 23%|██▎       | 23/100 [04:36<14:37, 11.39s/it] 24%|██▍       | 24/100 [04:47<14:13, 11.23s/it] 25%|██▌       | 25/100 [04:57<13:49, 11.07s/it] 26%|██▌       | 26/100 [05:09<13:49, 11.21s/it] 27%|██▋       | 27/100 [05:20<13:46, 11.32s/it] 28%|██▊       | 28/100 [05:31<13:11, 10.99s/it] 29%|██▉       | 29/100 [05:42<12:59, 10.98s/it] 30%|███       | 30/100 [05:52<12:44, 10.92s/it] 31%|███       | 31/100 [06:03<12:34, 10.93s/it] 32%|███▏      | 32/100 [06:14<12:23, 10.94s/it] 33%|███▎      | 33/100 [06:25<12:13, 10.95s/it] 34%|███▍      | 34/100 [06:35<11:43, 10.66s/it] 35%|███▌      | 35/100 [06:47<11:55, 11.01s/it] 36%|███▌      | 36/100 [06:58<11:48, 11.06s/it] 37%|███▋      | 37/100 [07:10<11:42, 11.16s/it] 38%|███▊      | 38/100 [07:23<12:09, 11.77s/it] 39%|███▉      | 39/100 [07:35<12:07, 11.93s/it] 40%|████      | 40/100 [07:50<12:43, 12.73s/it] 41%|████      | 41/100 [08:04<13:00, 13.22s/it] 42%|████▏     | 42/100 [08:18<12:58, 13.42s/it] 43%|████▎     | 43/100 [08:32<12:49, 13.51s/it] 44%|████▍     | 44/100 [08:43<12:03, 12.92s/it] 45%|████▌     | 45/100 [08:58<12:19, 13.44s/it] 46%|████▌     | 46/100 [09:13<12:36, 14.00s/it] 47%|████▋     | 47/100 [09:27<12:19, 13.94s/it] 48%|████▊     | 48/100 [09:42<12:24, 14.32s/it] 49%|████▉     | 49/100 [09:56<12:06, 14.24s/it] 50%|█████     | 50/100 [10:16<13:07, 15.75s/it] 51%|█████     | 51/100 [10:29<12:20, 15.11s/it] 52%|█████▏    | 52/100 [10:45<12:09, 15.19s/it] 53%|█████▎    | 53/100 [10:58<11:35, 14.79s/it] 54%|█████▍    | 54/100 [11:12<11:10, 14.57s/it] 55%|█████▌    | 55/100 [11:27<10:51, 14.48s/it] 56%|█████▌    | 56/100 [11:41<10:37, 14.48s/it] 57%|█████▋    | 57/100 [11:53<09:52, 13.77s/it] 58%|█████▊    | 58/100 [12:06<09:24, 13.43s/it] 59%|█████▉    | 59/100 [12:21<09:31, 13.95s/it] 60%|██████    | 60/100 [12:35<09:12, 13.81s/it] 61%|██████    | 61/100 [12:49<09:03, 13.95s/it] 62%|██████▏   | 62/100 [13:03<08:52, 14.02s/it] 63%|██████▎   | 63/100 [13:17<08:34, 13.90s/it] 64%|██████▍   | 64/100 [13:29<08:01, 13.38s/it] 65%|██████▌   | 65/100 [13:42<07:48, 13.39s/it] 66%|██████▌   | 66/100 [13:56<07:39, 13.52s/it] 67%|██████▋   | 67/100 [14:10<07:25, 13.50s/it] 68%|██████▊   | 68/100 [14:26<07:43, 14.48s/it] 69%|██████▉   | 69/100 [14:41<07:26, 14.41s/it] 70%|███████   | 70/100 [14:52<06:47, 13.58s/it] 71%|███████   | 71/100 [15:12<07:26, 15.41s/it] 72%|███████▏  | 72/100 [15:29<07:27, 15.97s/it] 73%|███████▎  | 73/100 [15:43<06:53, 15.33s/it] 74%|███████▍  | 74/100 [16:00<06:48, 15.72s/it] 75%|███████▌  | 75/100 [16:14<06:20, 15.21s/it] 76%|███████▌  | 76/100 [16:27<05:51, 14.65s/it] 77%|███████▋  | 77/100 [16:39<05:20, 13.93s/it] 78%|███████▊  | 78/100 [16:53<05:03, 13.78s/it] 79%|███████▉  | 79/100 [17:12<05:25, 15.50s/it] 80%|████████  | 80/100 [17:26<05:00, 15.04s/it] 81%|████████  | 81/100 [17:41<04:47, 15.11s/it] 82%|████████▏ | 82/100 [17:56<04:27, 14.88s/it] 83%|████████▎ | 83/100 [18:10<04:07, 14.59s/it] 84%|████████▍ | 84/100 [18:22<03:44, 14.04s/it] 85%|████████▌ | 85/100 [18:35<03:24, 13.62s/it] 86%|████████▌ | 86/100 [18:49<03:11, 13.71s/it] 87%|████████▋ | 87/100 [19:01<02:53, 13.36s/it] 88%|████████▊ | 88/100 [19:18<02:51, 14.26s/it] 89%|████████▉ | 89/100 [19:31<02:34, 14.00s/it] 90%|█████████ | 90/100 [19:45<02:18, 13.82s/it] 91%|█████████ | 91/100 [20:02<02:14, 14.91s/it] 92%|█████████▏| 92/100 [20:15<01:53, 14.23s/it] 93%|█████████▎| 93/100 [20:29<01:39, 14.19s/it] 94%|█████████▍| 94/100 [20:42<01:23, 13.92s/it] 95%|█████████▌| 95/100 [20:53<01:05, 13.11s/it] 96%|█████████▌| 96/100 [21:06<00:51, 12.95s/it] 97%|█████████▋| 97/100 [21:17<00:37, 12.36s/it] 98%|█████████▊| 98/100 [21:29<00:24, 12.30s/it] 99%|█████████▉| 99/100 [21:40<00:11, 11.94s/it]100%|██████████| 100/100 [21:52<00:00, 11.82s/it]100%|██████████| 100/100 [21:52<00:00, 13.12s/it]
+Extraction batch: input=343, output=31, total=374 tokens
+Extraction batch: input=342, output=31, total=373 tokens
+Extraction batch: input=344, output=35, total=379 tokens
+Extraction batch: input=342, output=33, total=375 tokens
+Extraction batch: input=340, output=30, total=370 tokens
+Extraction batch: input=339, output=29, total=368 tokens
+Extraction batch: input=341, output=32, total=373 tokens
+Extraction batch: input=341, output=30, total=371 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=341, output=30, total=371 tokens
+Extraction batch: input=343, output=34, total=377 tokens
+Extraction batch: input=341, output=31, total=372 tokens
+Extraction batch: input=340, output=30, total=370 tokens
+Extraction batch: input=339, output=29, total=368 tokens
+Extraction batch: input=339, output=29, total=368 tokens
+Extraction batch: input=340, output=29, total=369 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=342, output=34, total=376 tokens
+Extraction batch: input=340, output=31, total=371 tokens
+Extraction batch: input=343, output=34, total=377 tokens
+Extraction batch: input=347, output=37, total=384 tokens
+Extraction batch: input=345, output=36, total=381 tokens
+Extraction batch: input=346, output=36, total=382 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=346, output=36, total=382 tokens
+Extraction batch: input=345, output=35, total=380 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=343, output=30, total=373 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=347, output=36, total=383 tokens
+Extraction batch: input=345, output=35, total=380 tokens
+Extraction batch: input=339, output=29, total=368 tokens
+Extraction batch: input=343, output=34, total=377 tokens
+Extraction batch: input=340, output=30, total=370 tokens
+Extraction batch: input=342, output=31, total=373 tokens
+Extraction batch: input=340, output=31, total=371 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=340, output=30, total=370 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=344, output=35, total=379 tokens
+Extraction batch: input=344, output=35, total=379 tokens
+Extraction batch: input=347, output=44, total=391 tokens
+Extraction batch: input=346, output=37, total=383 tokens
+Extraction batch: input=346, output=35, total=381 tokens
+Extraction batch: input=347, output=37, total=384 tokens
+Extraction batch: input=346, output=35, total=381 tokens
+Extraction batch: input=343, output=32, total=375 tokens
+Extraction batch: input=345, output=35, total=380 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=345, output=36, total=381 tokens
+Extraction batch: input=345, output=37, total=382 tokens
+Extraction batch: input=343, output=31, total=374 tokens
+Extraction batch: input=345, output=34, total=379 tokens
+Extraction batch: input=343, output=34, total=377 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=343, output=32, total=375 tokens
+Extraction batch: input=341, output=29, total=370 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=341, output=31, total=372 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=345, output=36, total=381 tokens
+Extraction batch: input=347, output=37, total=384 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=347, output=37, total=384 tokens
+Extraction batch: input=342, output=30, total=372 tokens
+Extraction batch: input=342, output=31, total=373 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=342, output=33, total=375 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=346, output=36, total=382 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=342, output=32, total=374 tokens
+Extraction batch: input=345, output=35, total=380 tokens
+Extraction batch: input=344, output=34, total=378 tokens
+Extraction batch: input=346, output=40, total=386 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=345, output=34, total=379 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=346, output=36, total=382 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=344, output=32, total=376 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=341, output=31, total=372 tokens
+Extraction batch: input=341, output=31, total=372 tokens
+Extraction batch: input=346, output=37, total=383 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=344, output=33, total=377 tokens
+Extraction batch: input=343, output=33, total=376 tokens
+Extraction batch: input=345, output=35, total=380 tokens
+Executing step: embedding (analysis.embedding)
+  0%|          | 0/1 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 199/199 [00:00<00:00, 11770.45it/s]
+100%|██████████| 1/1 [00:35<00:00, 35.23s/it]100%|██████████| 1/1 [00:35<00:00, 35.23s/it]
+kouchou-ai-kit/bench/issue1195/.venv/lib/python3.12/site-packages/numba/np/ufunc/parallel.py:373: NumbaWarning: The TBB threading layer requires TBB version 2021 update 6 or later i.e., TBB_INTERFACE_VERSION >= 12060. Found TBB_INTERFACE_VERSION = 12050. The TBB threading layer is disabled.
+  warnings.warn(problem)
+kouchou-ai-kit/bench/issue1195/.venv/lib/python3.12/site-packages/umap/umap_.py:4160: FutureWarning: compatibility_layout was not set, so UMAP is using the legacy (0.5.x) nearest-neighbor, initialization and layout pipeline. In a future release the default will change to compatibility_layout=False, which uses recursive initialization and the Adam optimizer and produces different embeddings. Set compatibility_layout=True to keep the current behavior and silence this warning, or compatibility_layout=False (or optimizer='adam') to adopt the new behavior now.
+  self.fit(X, y, ensure_all_finite, **kwargs)
+Executing step: clustering (analysis.hierarchical_clustering)
+cluster_nums not provided; using recommended cluster counts based on arg count: [5, 25]
+start initial clustering
+end initial clustering
+start hierarchical clustering
+[5, 25]
+n_cluster_cut:  5
+end hierarchical clustering
+Executing step: initial_labelling (analysis.hierarchical_initial_labelling)
+start initial labelling
+end initial labelling
+Executing step: merge_labelling (analysis.hierarchical_merge_labelling)
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [03:12<00:00, 192.57s/it]100%|██████████| 1/1 [03:12<00:00, 192.58s/it]
+Executing step: overview (analysis.hierarchical_overview)
+Hierarchical overview: input=750, output=125, total=875 tokens
+Executing step: aggregation (analysis.hierarchical_aggregation)
+属性カラム検出: []
+overview
+意見グループは、AIの社会実装に関して、技術的応用と倫理的基盤の二つの主要な側面に焦点を当てている。具体的には、情報処理能力の向上や生活の質の改善といった実用的な貢献への期待がある一方、説明可能性の確保や厳格なガバナンス構築といった倫理的・制度的基盤の確立が不可欠であるとの認識が共通している。また、AIが産業構造そのものを変革し、新たな価値創造を加速させる点も重要な論点として挙げられている。
+Input count: 100
+Args count: 101
+
+========================================
+Pipeline completed successfully!
+
+Duration: 2273.24 seconds
+Total token usage: 53920
+Output directory: bench-work/outputs/bench-100-20261111-224006
+
+Steps:
+  [OK] extraction (1312.32s)
+  [OK] opinion_classification (0.00s)
+  [OK] opinion_stance (0.00s)
+  [OK] embedding (35.24s)
+  [OK] opinion_novelty (0.00s)
+  [OK] hierarchical_clustering (39.98s)
+  [OK] hierarchical_initial_labelling (654.06s)
+  [OK] hierarchical_merge_labelling (192.69s)
+  [OK] hierarchical_overview (38.89s)
+  [OK] hierarchical_aggregation (0.04s)
+  [OK] hierarchical_visualization (0.00s)

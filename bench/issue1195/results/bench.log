@@ -1,0 +1,23 @@
+PC: {"os": "Linux 6.8.0-60-generic", "arch": "x86_64", "cpu": "AMD Ryzen 7 5700X 8-Core Processor", "logical_cpus": 16, "memory_gb": 67.3, "python": "3.12.11"}
+
+== 100 件: gemma4:e4b（reasoning_effort=none）
+   完走  37.9 分  メモリ最大 2091 MB
+   - extraction: 1312.3 秒
+   - embedding: 35.2 秒
+   - hierarchical_clustering: 40.0 秒
+   - hierarchical_initial_labelling: 654.1 秒
+   - hierarchical_merge_labelling: 192.7 秒
+   - hierarchical_overview: 38.9 秒
+   - hierarchical_aggregation: 0.0 秒
+
+== 400 件: gemma4:e4b（reasoning_effort=none）
+   完走  104.1 分  メモリ最大 1791 MB
+   - extraction: 4615.4 秒
+   - embedding: 19.3 秒
+   - hierarchical_clustering: 12.8 秒
+   - hierarchical_initial_labelling: 1327.4 秒
+   - hierarchical_merge_labelling: 230.7 秒
+   - hierarchical_overview: 37.1 秒
+   - hierarchical_aggregation: 0.1 秒
+
+結果: results/bench-results.csv

@@ -1,0 +1,13 @@
+{
+  "name": "bench-100-20261111-224006",
+  "question": "寄せられた意見にはどのようなものがありますか？",
+  "input": "bench-100-20261111-224006",
+  "model": "gemma4:e4b",
+  "provider": "local",
+  "local_llm_address": "127.0.0.1:18389",
+  "is_embedded_at_local": true,
+  "extraction": {
+    "workers": 1,
+    "limit": 100
+  }
+}
