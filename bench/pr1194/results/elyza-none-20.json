@@ -1,0 +1,21 @@
+{
+ "slug": "elyza-none-20",
+ "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest",
+ "n": 20,
+ "workers": 2,
+ "status": "ready",
+ "total_sec": 550.9,
+ "reasoning_effort_env": "none",
+ "steps": {
+  "extraction": 0.0,
+  "embedding": 0.0,
+  "hierarchical_clustering": 0.0,
+  "hierarchical_initial_labelling": 0.0,
+  "hierarchical_merge_labelling": 0.0,
+  "hierarchical_overview": 0.0,
+  "hierarchical_aggregation": 0.0
+ },
+ "pipeline_status": "completed",
+ "error": "",
+ "args": 20
+}

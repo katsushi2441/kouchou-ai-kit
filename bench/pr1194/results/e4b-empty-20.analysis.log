@@ -1,0 +1,60 @@
+Starting pipeline execution...
+  Config: /app/broadlistening/pipeline/configs/e4b-empty-20.json
+  Output: /app/broadlistening/pipeline/outputs
+
+Executing step: extraction (analysis.extraction)
+  0%|          | 0/20 [00:00<?, ?it/s] 10%|█         | 2/20 [01:57<17:40, 58.94s/it] 20%|██        | 4/20 [03:46<14:57, 56.08s/it] 30%|███       | 6/20 [05:54<13:56, 59.78s/it] 40%|████      | 8/20 [08:05<12:25, 62.12s/it] 50%|█████     | 10/20 [10:06<10:14, 61.41s/it] 60%|██████    | 12/20 [11:52<07:48, 58.54s/it] 70%|███████   | 14/20 [13:37<05:39, 56.58s/it] 80%|████████  | 16/20 [15:25<03:43, 55.83s/it] 90%|█████████ | 18/20 [17:05<01:48, 54.03s/it]100%|██████████| 20/20 [18:38<00:00, 51.74s/it]100%|██████████| 20/20 [18:38<00:00, 55.95s/it]
+Extraction batch: input=1086, output=61, total=1147 tokens
+Extraction batch: input=1146, output=67, total=1213 tokens
+Extraction batch: input=1186, output=59, total=1245 tokens
+Extraction batch: input=1182, output=64, total=1246 tokens
+Extraction batch: input=1147, output=63, total=1210 tokens
+Extraction batch: input=1138, output=64, total=1202 tokens
+Extraction batch: input=1131, output=59, total=1190 tokens
+Extraction batch: input=1104, output=58, total=1162 tokens
+Extraction batch: input=1093, output=67, total=1160 tokens
+Extraction batch: input=1090, output=65, total=1155 tokens
+Executing step: embedding (analysis.embedding)
+  0%|          | 0/1 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 199/199 [00:00<00:00, 13269.32it/s]
+100%|██████████| 1/1 [00:36<00:00, 36.15s/it]100%|██████████| 1/1 [00:36<00:00, 36.15s/it]
+/usr/local/lib/python3.12/site-packages/umap/umap_.py:4160: FutureWarning: compatibility_layout was not set, so UMAP is using the legacy (0.5.x) nearest-neighbor, initialization and layout pipeline. In a future release the default will change to compatibility_layout=False, which uses recursive initialization and the Adam optimizer and produces different embeddings. Set compatibility_layout=True to keep the current behavior and silence this warning, or compatibility_layout=False (or optimizer='adam') to adopt the new behavior now.
+  self.fit(X, y, ensure_all_finite, **kwargs)
+Executing step: clustering (analysis.hierarchical_clustering)
+start initial clustering
+end initial clustering
+start hierarchical clustering
+[3, 6]
+n_cluster_cut:  3
+end hierarchical clustering
+Executing step: initial_labelling (analysis.hierarchical_initial_labelling)
+start initial labelling
+end initial labelling
+Executing step: merge_labelling (analysis.hierarchical_merge_labelling)
+  0%|          | 0/1 [00:00<?, ?it/s]ERROR:root:LocalLLM API error: Request timed out., model:gemma4:e4b, address:ollama:11434, is_json:False, json_schema:<class 'analysis_core.steps.hierarchical_merge_labelling.LabellingFromat'>, response_format:{'type': 'json_schema', 'json_schema': {'name': 'LabellingFromat', 'strict': True, 'schema': {'properties': {'label': {'description': 'クラスタのラベル名', 'title': 'Label', 'type': 'string'}, 'description': {'description': 'クラスタの説明文', 'title': 'Description', 'type': 'string'}}, 'required': ['label', 'description'], 'title': 'LabellingFromat', 'type': 'object', 'additionalProperties': False}}}
+ERROR:root:LocalLLM API error: Request timed out., model:gemma4:e4b, address:ollama:11434, is_json:False, json_schema:<class 'analysis_core.steps.hierarchical_merge_labelling.LabellingFromat'>, response_format:{'type': 'json_schema', 'json_schema': {'name': 'LabellingFromat', 'strict': True, 'schema': {'properties': {'label': {'description': 'クラスタのラベル名', 'title': 'Label', 'type': 'string'}, 'description': {'description': 'クラスタの説明文', 'title': 'Description', 'type': 'string'}}, 'required': ['label', 'description'], 'title': 'LabellingFromat', 'type': 'object', 'additionalProperties': False}}}
+ERROR:root:hierarchical_merge_labelling (cluster-level-1-id): ラベル生成に失敗しました。クラスタ 1_1: APITimeoutError: Request timed out.
+ERROR:root:hierarchical_merge_labelling (cluster-level-1-id): ラベル生成に失敗しました。クラスタ 1_2: APITimeoutError: Request timed out.
+  0%|          | 0/1 [17:41<?, ?it/s]
+Error: Step 'merge_labelling' failed: hierarchical_merge_labelling (cluster-level-1-id): ラベル生成に2件失敗しました。クラスタ: 1_1 (timeout), 1_2 (timeout)。処理を中止しました。トークン使用量・費用の集計は不完全です。
+
+========================================
+Pipeline failed!
+Error: Step 'merge_labelling' failed: hierarchical_merge_labelling (cluster-level-1-id): ラベル生成に2件失敗しました。クラスタ: 1_1 (timeout), 1_2 (timeout)。処理を中止しました。トークン使用量・費用の集計は不完全です。
+
+Duration: 3013.15 seconds
+Total token usage: 17563
+Output directory: /app/broadlistening/pipeline/outputs/e4b-empty-20
+
+Steps:
+  [OK] extraction (0.00s)
+  [OK] opinion_classification (0.00s)
+  [OK] opinion_stance (0.00s)
+  [OK] embedding (0.00s)
+  [OK] opinion_novelty (0.00s)
+  [OK] hierarchical_clustering (0.00s)
+  [OK] hierarchical_initial_labelling (0.00s)
+  [FAILED] hierarchical_merge_labelling (0.00s)
+         Error: Step 'merge_labelling' failed: hierarchical_merge_labelling (cluster-level-1-id): ラベル生成に2件失敗しました。クラスタ: 1_1 (timeout), 1_2 (timeout)。処理を中止しました。トークン使用量・費用の集計は不完全です。

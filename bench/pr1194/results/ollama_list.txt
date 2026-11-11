@@ -1,0 +1,3 @@
+NAME          ID              SIZE      MODIFIED      
+gemma4:e4b    dc35e8d9c606    6.6 GB    9 seconds ago    
+ollama version is 0.33.2

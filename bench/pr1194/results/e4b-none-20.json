@@ -1,0 +1,21 @@
+{
+ "slug": "e4b-none-20",
+ "model": "gemma4:e4b",
+ "n": 20,
+ "workers": 2,
+ "status": "ready",
+ "total_sec": 711.0,
+ "reasoning_effort_env": "none",
+ "steps": {
+  "extraction": 0.0,
+  "embedding": 0.0,
+  "hierarchical_clustering": 0.0,
+  "hierarchical_initial_labelling": 0.0,
+  "hierarchical_merge_labelling": 0.0,
+  "hierarchical_overview": 0.0,
+  "hierarchical_aggregation": 0.0
+ },
+ "pipeline_status": "completed",
+ "error": "",
+ "args": 20
+}

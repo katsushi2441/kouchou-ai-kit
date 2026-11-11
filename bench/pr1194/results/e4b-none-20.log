@@ -1,0 +1,9 @@
+20:34:31 投入 200
+20:34:41     10秒 status= processing step= extraction
+20:38:12    220秒 status= processing step= embedding
+20:41:12    401秒 status= processing step= hierarchical_clustering
+20:41:52    441秒 status= processing step= hierarchical_initial_labelling
+20:44:12    581秒 status= processing step= hierarchical_merge_labelling
+20:45:52    681秒 status= processing step= hierarchical_overview
+20:46:22    711秒 status= ready step= hierarchical_visualization
+{"slug": "e4b-none-20", "model": "gemma4:e4b", "n": 20, "workers": 2, "status": "ready", "total_sec": 711.0, "reasoning_effort_env": "none", "steps": {"extraction": 0.0, "embedding": 0.0, "hierarchical_clustering": 0.0, "hierarchical_initial_labelling": 0.0, "hierarchical_merge_labelling": 0.0, "hierarchical_overview": 0.0, "hierarchical_aggregation": 0.0}, "pipeline_status": "completed", "error": "", "args": 20}

@@ -1,0 +1,18 @@
+{
+ "slug": "e4b-empty-20",
+ "model": "gemma4:e4b",
+ "n": 20,
+ "workers": 2,
+ "status": "error",
+ "total_sec": 3024.1,
+ "reasoning_effort_env": "",
+ "steps": {
+  "extraction": 0.0,
+  "embedding": 0.0,
+  "hierarchical_clustering": 0.0,
+  "hierarchical_initial_labelling": 0.0
+ },
+ "pipeline_status": "error",
+ "error": "Step 'merge_labelling' failed: hierarchical_merge_labelling (cluster-level-1-id): ラベル生成に2件失敗しました。クラスタ: 1_1 (timeout), 1_2 (timeout)。処理を中止しました。トークン使用量・費用の集計は不完全です。",
+ "args": 20
+}

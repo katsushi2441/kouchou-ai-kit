@@ -1,0 +1,17 @@
+# kouchou-ai #1194 の検証用（PR #1193 のブランチに重ねる）。
+# - いま動いている広聴AI（project=kouchou-ai）と別名（-p kouchou1194）・別ポートで動かす
+# - 自治体の普通のPCに近づける: 4コア8スレッド（CPU 0-3 と対の 8-11）、メモリは ollama 12GB + api 4GB = 16GB、GPU なし
+services:
+  api:
+    ports: !override
+      - "127.0.0.1:18388:8000"
+    cpuset: "0-3,8-11"
+    mem_limit: 4g
+  ollama:
+    deploy: !reset null
+    cpuset: "0-3,8-11"
+    mem_limit: 12g
+    environment:
+      - CUDA_VISIBLE_DEVICES=-1
+      - OLLAMA_VULKAN=false
+      - GGML_VK_VISIBLE_DEVICES=-1

@@ -1,0 +1,9 @@
+20:48:37 投入 200
+20:48:47     10秒 status= processing step= extraction
+20:52:38    240秒 status= processing step= embedding
+20:52:48    250秒 status= processing step= hierarchical_clustering
+20:52:58    260秒 status= processing step= hierarchical_initial_labelling
+20:55:28    411秒 status= processing step= hierarchical_merge_labelling
+20:57:08    511秒 status= processing step= hierarchical_overview
+20:57:48    551秒 status= ready step= hierarchical_visualization
+{"slug": "elyza-none-20", "model": "hf.co/elyza/Llama-3-ELYZA-JP-8B-GGUF:latest", "n": 20, "workers": 2, "status": "ready", "total_sec": 550.9, "reasoning_effort_env": "none", "steps": {"extraction": 0.0, "embedding": 0.0, "hierarchical_clustering": 0.0, "hierarchical_initial_labelling": 0.0, "hierarchical_merge_labelling": 0.0, "hierarchical_overview": 0.0, "hierarchical_aggregation": 0.0}, "pipeline_status": "completed", "error": "", "args": 20}
